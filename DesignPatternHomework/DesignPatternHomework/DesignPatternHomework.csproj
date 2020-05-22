@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02ED6939-83DF-4A9F-A9B4-31542208AAA6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DesignPatternHomework</RootNamespace>
+    <AssemblyName>DesignPatternHomework</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Config\Bean.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPattern.AbstractFactory\DesignPattern.AbstractFactory.csproj">
+      <Project>{7985557C-EB5B-41A1-B415-B13F125BAA78}</Project>
+      <Name>DesignPattern.AbstractFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.Common\DesignPattern.Common.csproj">
+      <Project>{BD19EF1E-AB53-4494-B2B0-57851C834130}</Project>
+      <Name>DesignPattern.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.Decorator\DesignPattern.Decorator.csproj">
+      <Project>{33F64530-BD0E-446C-AC8E-F3EA9C52C53B}</Project>
+      <Name>DesignPattern.Decorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.Model\DesignPattern.Model.csproj">
+      <Project>{24CB4A17-A527-40BF-9868-9097F12F8C03}</Project>
+      <Name>DesignPattern.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.Observer\DesignPattern.Observer.csproj">
+      <Project>{A0423BFF-C418-45A9-BE9A-82BB6C50622A}</Project>
+      <Name>DesignPattern.Observer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Menu.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DishModelList>
+  <DishModels>
+    <DishModel>
+      <DishId>1</DishId>
+      <DishName>Potatoes</DishName>
+      <DishDescription>
+        这就是一个简单地土豆，只有我妈做的最好吃！
+      </DishDescription>
+      <Price>32</Price>
+      <DishSorce>1</DishSorce>
+      <SimpleFactory>DesignPattern.Model,DesignPattern.Model.Potatoes</SimpleFactory>
+    </DishModel>
+    <DishModel>
+      <DishId>2</DishId>
+      <DishName>Bean</DishName>
+      <DishDescription>
+        这就是一个简单地豆芽，只有我妈做的最好吃！
+      </DishDescription>
+      <Price>32</Price>
+      <DishSorce>1</DishSorce>
+      <SimpleFactory>DesignPattern.Model,DesignPattern.Model.Bean</SimpleFactory>
+    </DishModel>
+    <DishModel>
+      <DishId>3</DishId>
+      <DishName>Bouilli</DishName>
+      <DishDescription>
+        这就是一个简单地红烧肉，只有我妈做的最好吃！
+      </DishDescription>
+      <Price>64</Price>
+      <DishSorce>1</DishSorce>
+      <SimpleFactory>DesignPattern.Model,DesignPattern.Model.Bouilli</SimpleFactory>
+    </DishModel>
+  </DishModels>
+</DishModelList>
+

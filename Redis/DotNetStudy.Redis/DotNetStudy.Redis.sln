@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetStudy.Redis", "DotNetStudy.Redis\DotNetStudy.Redis.csproj", "{413F1587-7B48-4F2F-A28A-1EB45CEC0B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetStudy.RedisHelper", "DotNetStudy.RedisHelper\DotNetStudy.RedisHelper.csproj", "{FD608D4D-636C-4AA5-9363-CEE92646EF71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413F1587-7B48-4F2F-A28A-1EB45CEC0B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413F1587-7B48-4F2F-A28A-1EB45CEC0B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413F1587-7B48-4F2F-A28A-1EB45CEC0B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413F1587-7B48-4F2F-A28A-1EB45CEC0B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD608D4D-636C-4AA5-9363-CEE92646EF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD608D4D-636C-4AA5-9363-CEE92646EF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD608D4D-636C-4AA5-9363-CEE92646EF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD608D4D-636C-4AA5-9363-CEE92646EF71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59360ADB-2506-4EB1-88AD-CDD97799F380}
+	EndGlobalSection
+EndGlobal
