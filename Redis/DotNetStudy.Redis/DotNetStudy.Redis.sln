@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetStudy.Redis", "DotNet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetStudy.RedisHelper", "DotNetStudy.RedisHelper\DotNetStudy.RedisHelper.csproj", "{FD608D4D-636C-4AA5-9363-CEE92646EF71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetStudy.BackService", "DotNetStudy.BackService\DotNetStudy.BackService.csproj", "{617AF862-D446-4645-AF9A-381DDE25B3BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FD608D4D-636C-4AA5-9363-CEE92646EF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD608D4D-636C-4AA5-9363-CEE92646EF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD608D4D-636C-4AA5-9363-CEE92646EF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617AF862-D446-4645-AF9A-381DDE25B3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617AF862-D446-4645-AF9A-381DDE25B3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617AF862-D446-4645-AF9A-381DDE25B3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617AF862-D446-4645-AF9A-381DDE25B3BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

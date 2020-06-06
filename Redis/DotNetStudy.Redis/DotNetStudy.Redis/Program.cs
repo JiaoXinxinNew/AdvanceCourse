@@ -12,9 +12,15 @@ namespace DotNetStudy.Redis
     {
         static void Main(string[] args)
         {
-            ICache cache = CacheHelper.CreateCacheConfigRelex();
-            cache.Set("1", "2");
+
+
+            ///RankManager.GiveGift();
+            #region 生产者消费者模式
+            ServiceStackTest.Show();
             Console.Read();
+            #endregion
+
+           
         }
     }
 }

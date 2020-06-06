@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DotNetStudy.RedisHelper.Service
 {
-   public class RedisStringService: RedisBase, ICache
+   public class RedisStringService: RedisBase, IRedisString
     {
         #region 赋值
         /// <summary>

@@ -14,11 +14,11 @@ namespace DotNetStudy.RedisHelper.CacheFactory
         private static string IRacTypeConfigReflection = ConfigurationManager.AppSettings["Cache"];
         private static string DllName = IRacTypeConfigReflection.Split(',')[0];
         private static string TypeName = IRacTypeConfigReflection.Split(',')[1];
-        public static ICache CreateCacheConfigRelex()
+        public static IRedisString CreateCacheConfigRelex()
         {
             Assembly assembly = Assembly.Load(DllName);//加载dll文件 
             Type type = assembly.GetType(TypeName);//根据类型名获取dll中的类型 
-            var race = (ICache)Activator.CreateInstance(type);//根据类型创建实例
+            var race = (IRedisString)Activator.CreateInstance(type);//根据类型创建实例
             return race;
         }
     }
